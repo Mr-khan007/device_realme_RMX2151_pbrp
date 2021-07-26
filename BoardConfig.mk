@@ -167,3 +167,8 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone3/temp
 #TW_Y_OFFSET := 115
 #TW_H_OFFSET := -115
+
+# PBRP Build Flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := /proc/qcom_flash
+PB_TORCH_MAX_BRIGHTNESS := 1
